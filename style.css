@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 body {
-    width: 100%;
+    width: 80vw;
+    margin: auto;
 }
 
 header {
@@ -9,7 +10,7 @@ header {
 }
 
 body>header {
-    width: 80vw;
+
     background-color: #202C33;
     display: flex;
     position: relative;
@@ -22,22 +23,12 @@ body>header>ul {
 }
 
 
-.menu {
 
-    flex-direction: row-reverse;
-    align-items: center;
-    position: relative;
-    width: 500px;
-}
 
 .conversa {
-    
+
     position: relative;
     width: 100%;
-}
-
-body>header>ul>li>img {
-    display: block;
 }
 
 .foto-perfil {
@@ -46,16 +37,103 @@ body>header>ul>li>img {
     border-radius: 50px;
 }
 
+.menu {
+
+    flex-direction: row-reverse;
+    align-items: center;
+    position: relative;
+    width: 500px;
+}
+
 .menu-navegacao {
     list-style-type: none;
     width: 25px;
     height: 25px;
     border-radius: 100px;
     justify-content: center;
-    padding: 10px; background-color: lightgray;
+    padding: 10px;
+    background-color: lightgray;
     border-radius: 50px;
 }
 
 ul {
     list-style-type: none;
+}
+
+
+#barra-peqsuisa {
+    background-color: #111B21;
+    display: flex;
+    position: relative;
+}
+
+#pesquisa {
+    width: 350px;
+    height: 35px;
+    background-color: #111B21;
+    border-radius: 5px;
+}
+
+main>div {
+    background-color: #111B21;
+    width: 450px;
+}
+
+
+.contatos {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+#amigos {
+    position: fixed;
+    display: flex;
+    background-color: red;
+}
+
+span {
+    color: white;
+    justify-content: center;
+    position: fixed;
+    align-items: center;
+}
+
+
+.alinhamento-contatos {
+    flex-direction: row-reverse;
+    align-items: center;
+    position: relative;
+    width: 50px;
+
+}
+
+.position {
+    justify-content: center;
+    position: fixed;
+}
+
+.nome-contato {
+    position: fixed;
+    justify-content: flex-start;
+
+
+}
+
+#position-cotatos {
+    display: flex;
+    position: relative;
+}
+
+.position-name {
+
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    width: 500px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 10px;
+ 
 }
