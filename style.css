@@ -12,167 +12,76 @@ body {
     margin: auto;
 }
 
+#menu-cabecalho{
+    display: flex;
+}
+
 header {
-    display: flex;
     background-color: #202C33;
-    position: relative;
+    display: flex;
+    height: 60px;
     margin: auto;
+    margin-top: 16px;
+    width: 80vw;
 }
-
-
-body>header>ul {
+.user-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5px;
+    width: 440px;
+}
+.user-photo, .user-photo > img {
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+}
+.user-area-menu {
+    height: 30px;
+    width: 148px;
+}
+.user-area-menu ul {
     display: flex;
 }
+.user-area-menu ul li img{
+    filter: brightness(0) invert(1);
+    height: 30px;
+    margin: 0px 3px;
+    width: 30px;
+}
 
-#cabecalho{
+.contat-photo, .contat-photo > img{
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+}
+
+ .menu-right-itens >li>img{
+    filter: brightness(0) invert(1);
+    height: 30px;
+    margin: 0px 3px;
+    width: 30px;
+
+}
+
+.menu-right-itens{
+    display: flex;
+    margin-left: 850px;
+}
+.contact{
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content: flex-end;
-}
-
-.cabacalho{
-   
-    display: flex;
-    position: fixed;
-}
-
-#foto-perfil{
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-}
-
-#icons-menu{
-    width: 30px;
-    height: 30px;
-}
-
-.icons-menu{
-    width: 30px;
-    height: 30px;
-    border-radius: 50px;
-    background-color: lightgray;
-    width: 100%;
-    justify-content: center;
+    justify-content: flex-start;
     
 }
-
-
-.position-icons{
-    display: flex;
-    position: fixed;
-    justify-content: center;
-    align-items: center;
-}
-
-.conversa {
-    display: flex;
-    position: relative;
-    width: 100%;
-}
-
-#position-conversa{
-    display: flex;
-    position: relative;
-}
-
-
-.contatos {
-    margin: 10px;
-}
-
-ul {
+li{
     list-style-type: none;
 }
 
-
-#barra-peqsuisa {
-    background-color: #111B21;
-    display: flex;
-    position: relative;
-}
-
-#pesquisa {
-    width: 350px;
-    height: 35px;
-    background-color: #111B21;
-    border-radius: 5px;
-}
-
-#mensagem {
-    background-color: #111B21;
-    width: 450px;
-}
-
-
-#mensagem>ul {
-    width: 100%;
-}
-
-
-.contatos {
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-}
-
-
-span {
+span{
     color: white;
-    justify-content: center;
-    position: fixed;
-    align-items: center;
-}
+    font-size: 16px;
+    font-weight: bold;
 
-
-.alinhamento-contatos {
-    flex-direction: row-reverse;
-    align-items: center;
-    position: relative;
-    width: 50px;
-
-}
-
-.conversa {}
-
-.position {
-    justify-content: center;
-    position: fixed;
-}
-
-.nome-contato {
-    position: fixed;
-    justify-content: flex-start;
-
-
-}
-
-.position-cotatos {
-    display: flex;
-    position: relative;
-
-}
-
-.position-name {
-
-    flex-direction: row;
-    align-items: center;
-    position: relative;
-    width: 500px;
-    display: flex;
-    position: relative;
-    align-items: center;
-    padding: 10px;
-
-}
-
-hr {
-    background-color: lightgray;
-}
-
-.position-cotato-aberto {
-    background-color: #202C33;
-    display: flex;
-    position: relative;
 }
