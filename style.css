@@ -12,7 +12,7 @@ body {
     margin: auto;
 }
 
-#menu-cabecalho{
+#menu-cabecalho {
     display: flex;
 }
 
@@ -24,6 +24,7 @@ header {
     margin-top: 16px;
     width: 80vw;
 }
+
 .user-area {
     display: flex;
     align-items: center;
@@ -31,33 +32,39 @@ header {
     padding: 0px 5px;
     width: 440px;
 }
-.user-photo, .user-photo > img {
+
+.user-photo,
+.user-photo>img {
     border-radius: 50px;
     height: 50px;
     width: 50px;
     margin: 0 10px;
 }
+
 .user-area-menu {
     height: 30px;
     width: 148px;
 }
+
 .user-area-menu ul {
     display: flex;
 }
-.user-area-menu ul li img{
+
+.user-area-menu ul li img {
     filter: brightness(0) invert(1);
     height: 30px;
     margin: 0px 3px;
     width: 30px;
 }
 
-.contat-photo, .contat-photo > img{
+.contat-photo,
+.contat-photo>img {
     border-radius: 50px;
     height: 60px;
     width: 60px;
 }
 
- .menu-right-itens >li>img{
+.menu-right-itens>li>img {
     filter: brightness(0) invert(1);
     height: 30px;
     margin: 0px 3px;
@@ -65,36 +72,55 @@ header {
 
 }
 
-.menu-right-itens{
+.menu-right-itens {
     display: flex;
     margin-left: 850px;
 }
-.contact{
+
+.contact {
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: flex-start;
-    
+
 }
-li{
+
+li {
     list-style-type: none;
 }
 
-span{
+span {
     color: white;
     font-size: 16px;
     font-weight: bold;
 
 }
 
-.contacts{
-    width: 440px;
-    height: 800px;
-    background-color: blue;
+.contacts {
+   
 }
 
-.name-contacts{
+.list-contacts {
+    width: 440px;
+    background-color: blue;
+    display: flex;
+
+    
+}
+
+.name-contacts {
     background-color: red;
-    height: 50px;
+    height: 70px; 
+    width: 100%;
+    border-bottom: 1px solid lightslategrey;
+    display: flex;
     align-items: center;
+    justify-content: flex-start;
+}
+
+img {
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    margin: 0 10px;
 }
