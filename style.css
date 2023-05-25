@@ -10,6 +10,8 @@
 body {
     width: 80vw;
     margin: auto;
+    background-color: #111B21;
+    border: 2px solid #222E35;
 }
 
 #menu-cabecalho {
@@ -23,6 +25,7 @@ header {
     margin: auto;
     margin-top: 16px;
     width: 80vw;
+    border: 2px solid #111b2100;
 }
 
 .user-area {
@@ -102,14 +105,14 @@ span {
 
 .list-contacts {
     width: 440px;
-    background-color: blue;
     display: flex;
 
     
 }
 
 .name-contacts {
-    background-color: red;
+    color: white;
+    background-color: #111B21;
     height: 70px; 
     width: 100%;
     border-bottom: 1px solid lightslategrey;
