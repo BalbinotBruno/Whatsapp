@@ -107,6 +107,7 @@ span {
 .list-contacts {
     width: 440px;
     display: flex;
+    border-bottom: 1px solid lightslategrey;
 
 
 }
@@ -121,13 +122,20 @@ span {
 
 }
 
+.position-contacts{
+    color: white;
+    background-color: #111B21;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 .name-contacts {
     color: white;
     background-color: #111B21;
-    height: 70px;
     width: 100%;
-    border-bottom: 1px solid lightslategrey;
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: flex-start;
 }
@@ -138,3 +146,13 @@ img {
     width: 50px;
     margin: 10px;
 }
+
+.color-msg{
+    color: rgb(182, 175, 175);
+}
+
+.visto{
+    color: lightgrey;
+    font-size: 12px;
+}
+
