@@ -83,6 +83,10 @@ header {
     margin-left: 850px;
 }
 
+main {
+    display: flex;
+}
+
 .contact {
     display: flex;
     width: 100%;
@@ -122,7 +126,7 @@ span {
 
 }
 
-.position-contacts{
+.position-contacts {
     color: white;
     background-color: #111B21;
     width: 100%;
@@ -140,19 +144,25 @@ span {
     justify-content: flex-start;
 }
 
-img {
+.img-icons {
     border-radius: 50px;
     height: 50px;
     width: 50px;
     margin: 10px;
 }
 
-.color-msg{
+.color-msg {
     color: rgb(182, 175, 175);
 }
 
-.visto{
+.visto {
     color: lightgrey;
     font-size: 12px;
+    margin-right: 10px;
 }
 
+.fundo {
+    width: 1095px;
+   height: 835px;
+
+}
