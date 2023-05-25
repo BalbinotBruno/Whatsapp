@@ -99,7 +99,7 @@ span {
     color: white;
     font-size: 16px;
     font-weight: bold;
-    
+
 
 }
 
@@ -108,22 +108,23 @@ span {
     width: 440px;
     display: flex;
 
-    
+
 }
 
-.search-bar{
+.search-bar {
     width: 400px;
     height: 30px;
     border-radius: 10px;
     margin-left: 30px;
     background-color: #222E35;
     margin: 10px;
+
 }
 
 .name-contacts {
     color: white;
     background-color: #111B21;
-    height: 70px; 
+    height: 70px;
     width: 100%;
     border-bottom: 1px solid lightslategrey;
     display: flex;
