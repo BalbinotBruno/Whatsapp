@@ -110,6 +110,15 @@ span {
     
 }
 
+.search-bar{
+    width: 400px;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 30px;
+    background-color: #222E35;
+    margin: 10px;
+}
+
 .name-contacts {
     color: white;
     background-color: #111B21;
