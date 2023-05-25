@@ -86,3 +86,15 @@ span{
     font-weight: bold;
 
 }
+
+.contacts{
+    width: 440px;
+    height: 800px;
+    background-color: blue;
+}
+
+.name-contacts{
+    background-color: red;
+    height: 50px;
+    align-items: center;
+}
