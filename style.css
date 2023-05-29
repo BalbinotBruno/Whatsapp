@@ -102,13 +102,42 @@ li {
 .position-search{
     display: flex;
 }
+.search{
+    width: 400px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #202C33;
+    border: 1px solid #202C33;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
 
 .filtro{
     width: 30px;
     height: 30px;
-    margin: 10px;
+    margin-top: 15px;
+    margin-right: 5px;
+    padding: 5px;
     filter: brightness(0) invert(1);
+    color: lightgray;
 
+}
+
+.icon-search{
+    width: 30px;
+    height: 30px;
+    filter: brightness(0) invert(1);
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 5px;
+    color: lightgray;
+}
+
+.alinhamento-search{
+    display: flex;
 }
 
 span {
@@ -192,6 +221,7 @@ span {
     border-radius: 0px 20px 20px 20px;
     padding: 10px;
     margin-bottom: 3px;
+    margin-top: 3px;
 }
 
 .right {
@@ -202,7 +232,9 @@ span {
     margin-left: 700px;
     border-radius: 20px 0px 20px 20px;
     margin-bottom: 3px;
+    margin-top: 3px;
     padding: 10px;
+    
 
 }
 
