@@ -259,3 +259,28 @@ span {
 p{
     width: auto;
 }
+
+.icones-campo-texo{
+    width: 30px;
+    height: 30px;
+    filter: brightness(0) invert(1);
+    margin: 10px;
+}
+
+.campo-texto{
+    width: 920px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #2A3942;
+    margin: 5px;
+    border: 1px solid lightgray;
+}
+
+.rodape{
+    background-color: #202C33;
+}
+
+.campo-texto-rodape{
+    display: flex;
+    align-items: center;
+}
