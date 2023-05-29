@@ -99,6 +99,18 @@ li {
     list-style-type: none;
 }
 
+.position-search{
+    display: flex;
+}
+
+.filtro{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    filter: brightness(0) invert(1);
+
+}
+
 span {
     color: white;
     font-size: 16px;
@@ -174,7 +186,7 @@ span {
 
 .left {
     text-align: left;
-    width: 350px;
+    width: 350PX;
     margin-left: 50px;
     background-color: #202C33;
     border-radius: 0px 20px 20px 20px;
@@ -187,9 +199,10 @@ span {
     width: 350px;
     color: white;
     background-color: #005C4B;
-    margin-left: 800px;
+    margin-left: 700px;
     border-radius: 20px 0px 20px 20px;
     margin-bottom: 3px;
+    padding: 10px;
 
 }
 
@@ -209,4 +222,7 @@ span {
 .tamanho-print{
     width: 330px;
     height: 186px;
+}
+p{
+    width: auto;
 }
