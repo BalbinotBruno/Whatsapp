@@ -8,6 +8,43 @@
 
 }
 
+@media screen and (max-width:1024px) {
+    #contatos{
+        width:480px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .conversa-aberta > p{
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .list-contacts{
+        width:320px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .position-search{
+        width:320px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .campo-texto-rodape{
+        width:320px;
+    }
+}
+
+
+
+
+.responsividade-li{
+    width: 100%;
+}
 
 body {
     width: 80vw;
@@ -30,12 +67,16 @@ header {
     border: 2px solid #111b2100;
 }
 
+#contatos{
+    width: 400px;
+}
+
 .user-area {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0px 5px;
-    width: 440px;
+    width: 400px;
 }
 
 .user-photo,
@@ -72,6 +113,10 @@ header {
     align-items: center;
 }
 
+.menu-right{
+
+}
+
 .menu-right-itens>li>img {
     filter: brightness(0) invert(1);
     height: 30px;
@@ -82,11 +127,11 @@ header {
 
 .menu-right-itens {
     display: flex;
-    margin-left: 850px;
 }
 
 main {
     display: flex;
+    width: 100%;
 }
 
 .contact {
@@ -153,9 +198,10 @@ span {
 
 
 .list-contacts {
-    width: 440px;
     display: flex;
     border-bottom: 1px solid lightslategrey;
+    width: 400px;
+
 }
 
 .list-last-contacts {
@@ -210,8 +256,6 @@ span {
 }
 
 .fundo {
-    width: 1095px;
-    height: 700px;
     background-color: #131a1f;
     background-image: url(img/fundo.webp);
 }
@@ -220,14 +264,13 @@ span {
     color: white;
     display: block;
     width: 100%;
-    height: 100%;
 
 }
 
-@media screen and (max-width: 1024px) {
-    .conversa-aberta > p{
-        width: 320px;
-    }
+
+
+.responsividade{
+    width: 100%;
 }
 
 .left {
