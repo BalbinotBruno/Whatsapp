@@ -13,7 +13,7 @@
 @media screen and (max-width: 1024px) {
     .conversa-aberta > p{
         width: 320px;
-    }
+    }   
 }
 
 @media screen and (max-width: 1024px) {
@@ -28,8 +28,14 @@
         width:320px;
     }
 }
+
 @media screen and (max-width: 1024px) {
-    .campo-texto-rodape{
+    .position-search{
+        width:320px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .responsividade-li{
         width:320px;
     }
 }
@@ -38,7 +44,7 @@
 
 
 .responsividade-li{
-    width: 100%;
+    display: block;
 }
 
 body {
@@ -63,16 +69,12 @@ header {
     border: 2px solid #111b2100;
 }
 
-#contatos{
-    width: 100%;
-}
 
 .user-area {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 0px 5px;
-    width: 400px;
+    width: 500px;
 }
 
 .user-photo,
@@ -109,9 +111,6 @@ header {
     align-items: center;
 }
 
-.menu-right{
-
-}
 
 .menu-right-itens>li>img {
     filter: brightness(0) invert(1);
@@ -128,6 +127,7 @@ header {
 main {
     display: flex;
     width: 100%;
+    height: 100%;
 }
 
 .contact {
@@ -147,7 +147,7 @@ li {
 }
 
 .search {
-    width: 400px;
+    width: 100%;
     height: 40px;
     padding: 5px;
     border-radius: 10px;
@@ -182,14 +182,6 @@ li {
 
 .alinhamento-search {
     display: flex;
-}
-
-span {
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
-
-
 }
 
 
@@ -254,38 +246,46 @@ span {
 .fundo {
     background-color: #131a1f;
     background-image: url(img/fundo.webp);
+    width: 100%;
 }
 
 .conversa-aberta {
     color: white;
     display: block;
-    width: 100vw;
-    height: 80vh;
+    width: 100%;
+    height: 100%;
 
 }
 
-
-
-.responsividade{
-    width: 100%;
+span{
+    padding: 20px;
 }
 
 .left {
-    margin-left: 50px;
+    margin-left: 100px;
     background-color: #202C33;
     border-radius: 0px 20px 20px 20px;
     padding:  10px;
     margin: auto;
+    position: relative;
+    display: inline-block;
 }
 
+
 .right {
-    text-align: right;
     color: white;
     background-color: #005C4B;
     border-radius: 20px 0px 20px 20px;
     margin-bottom: 3px;
     margin-top: 3px;
-    padding: 10px;
+    padding: 10px;     
+    position: relative;
+    display: inline-block;
+
+
+    
+
+
 
 
 }
@@ -335,5 +335,5 @@ span {
     align-items: center;
 }
 br{
-    margin: 20px;
+    padding: 20px;
 }
