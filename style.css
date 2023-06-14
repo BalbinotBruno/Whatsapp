@@ -17,7 +17,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .list-contacts {
+    #contatos {
         width: 320px;
     }
 }
@@ -46,6 +46,7 @@
 
 .responsividade-li {
     display: block;
+    width: 100%;
 }
 
 body {
@@ -58,6 +59,7 @@ body {
 
 #menu-cabecalho {
     display: flex;
+    width: 100%;
 }
 
 header {
@@ -66,8 +68,13 @@ header {
     height: 60px;
     margin: auto;
     margin-top: 16px;
-    width: 80vw;
+    width: 100%;
     border: 2px solid #111b2100;
+}
+
+#area-contato{
+  justify-content: center;
+  display: flex;
 }
 
 
@@ -75,7 +82,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 0px 5px;
-    width: 440px;
+    width: 30vw;
     align-items: center;
 }
 
@@ -83,8 +90,8 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 0px 5px;
-    width: 440px;
     align-items: center;
+    width: 1080px;
 }
 
 .user-photo,
@@ -129,16 +136,18 @@ header {
     width: 30px;
 
 }
-
-.menu-right{
-    align-items: center;
-    justify-content: space-between;
+.menu-right-itens {
+    display: flex;
+    justify-content: flex-end;
     width: 100%;
 }
 
-.menu-right-itens {
+.menu-right{
     display: flex;
+    align-items: center;
 }
+
+
 
 main {
     display: flex;
@@ -204,7 +213,6 @@ li {
 .list-contacts {
     display: flex;
     border-bottom: 1px solid lightslategrey;
-    width: 100%;
     height: 100px;
     align-items: center;
 
@@ -265,6 +273,7 @@ li {
     background-color: #131a1f;
     background-image: url(img/fundo.webp);
     width: 100%;
+    height: 100%;
 }
 
 .conversa-aberta {
